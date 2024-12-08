@@ -33,19 +33,20 @@ Online Library System creates an interface where an user can borrow and return b
 
 ### *FOLDER STRUCTURE*
 
+
 online-library/
 │
 ├── instance/                  # Has the database file
-│   └── library.db             #database file t
+│   └── library.db             # Database file
 │
 ├── static/                    # Static files for CSS
-│   ├── styles.css             # CSS file for styling 
-│   ├── images/                
+│   ├── styles.css             # CSS file for styling
+│   ├── images/                # Folder for image files
 │       └── your_image.jpg     # Background image file
 │
 ├── templates/                 # HTML templates
-│   ├── base.html              # Base layout 
-│   ├── index.html             # Home  page
+│   ├── base.html              # Base layout
+│   ├── index.html             # Home page
 │   ├── login.html             # Login page
 │   ├── register.html          # Registration page
 │   ├── admin_dashboard.html   # Admin dashboard
@@ -53,17 +54,17 @@ online-library/
 │   ├── browse_books.html      # Page to browse books
 │   ├── add_book.html          # Add book page for admin
 │   ├── borrow_book.html       # Borrow book page
-│   ├── return_book.html       # Return book page
+│   └── return_book.html       # Return book page
 │
-├── venv/                      # Virtual environment 
+├── venv/                      # Virtual environment
 │   ├── Include/
 │   ├── Lib/
 │   ├── Scripts/
 │   └── pyvenv.cfg
 │
-├── app.py                     # Main  application file
-├── forms.py                   # Flask-WTF forms for user input 
+├── app.py                     # Main application file
+├── forms.py                   # Flask-WTF forms for user input
 ├── models.py                  # SQLAlchemy model
 ├── requirements.txt           # List of dependencies
 ├── README.md                  # Documentation for the project
-└── .env                       # Environment variables 
+└── .env                       # Environment variables
