@@ -33,12 +33,11 @@ Online Library System creates an interface where an user can borrow and return b
 
 ### *FOLDER STRUCTURE*
 
+1) instance                  # Has the database file
+       library.db             # Database file
 
-online-library/
-│
-├── instance/                  # Has the database file
-│   └── library.db             # Database file
-│
+
+
 ├── static/                    # Static files for CSS
 │   ├── styles.css             # CSS file for styling
 │   ├── images/                # Folder for image files
