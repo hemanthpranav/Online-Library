@@ -1,7 +1,7 @@
 # *Online-Library*
 To Present a Online library system using Flask and Python
 
-![Alt text](https://drive.google.com/file/d/1ynW_tyroJ-kgHqghsZBlERhkx7zKK7fw/view?usp=sharing)
+![Alt text](lib.jpg)
 ---
 
 ### *Project Overview*
@@ -15,7 +15,7 @@ Online Library System creates an interface where an user can borrow and return b
 -Ensure the right packages are available and installed in the required IDE
 -On the terminal type *"python app.py"* 
 -This will generate a URL that will take you to a web application as shown below.
-![Alt text](https://drive.google.com/file/d/19q3rtdf113EYMiSzvWxtzQeEPN3meZsH/view?usp=sharing)
+![Alt text](open1.jpg)
 
 ### *Prerequisites*
 
