@@ -33,37 +33,28 @@ Online Library System creates an interface where an user can borrow and return b
 
 ### *FOLDER STRUCTURE*
 
-1) instance                  # Has the database file
-       library.db             # Database file
+1) instance - Library.db   # Has the database file
+   
+2) static - styles.css     # CSS file for styling
+   
+3) templates               # HTML templates
+   a)base.html              # Base layout
+   b)index.html             # Home page
+   c)login.html             # Login page
+   d) register.html          # Registration page
+   e) browse_books.html      # Page to browse books
+   f) add_book.html          # Add book page for admin
+   g) borrow_book.html       # Borrow book page
+   h) return_book.html       # Return book page
+   
+4) venv                    # Virtual environment
+
+5) app.py                   # Main application file
+
+6) forms.py                 # Flask-WTF forms for user input
+
+7) env                      # Environment variables
 
 
 
-├── static/                    # Static files for CSS
-│   ├── styles.css             # CSS file for styling
-│   ├── images/                # Folder for image files
-│       └── your_image.jpg     # Background image file
-│
-├── templates/                 # HTML templates
-│   ├── base.html              # Base layout
-│   ├── index.html             # Home page
-│   ├── login.html             # Login page
-│   ├── register.html          # Registration page
-│   ├── admin_dashboard.html   # Admin dashboard
-│   ├── user_dashboard.html    # User dashboard
-│   ├── browse_books.html      # Page to browse books
-│   ├── add_book.html          # Add book page for admin
-│   ├── borrow_book.html       # Borrow book page
-│   └── return_book.html       # Return book page
-│
-├── venv/                      # Virtual environment
-│   ├── Include/
-│   ├── Lib/
-│   ├── Scripts/
-│   └── pyvenv.cfg
-│
-├── app.py                     # Main application file
-├── forms.py                   # Flask-WTF forms for user input
-├── models.py                  # SQLAlchemy model
-├── requirements.txt           # List of dependencies
-├── README.md                  # Documentation for the project
-└── .env                       # Environment variables
+
