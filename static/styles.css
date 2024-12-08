@@ -1,0 +1,64 @@
+/* static/styles.css */
+
+body {
+    margin: 0;
+    font-family: Garamond, sans-serif;
+    /*background-color: #58c6b854;*/
+    color: black;
+    background: url("pexels-photo-46274.jpg"); 
+    background-size: cover; 
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+/* Header */
+h1 {
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 30px;
+}
+
+/* Book List */
+.book-list {
+    list-style: none;
+    padding: 0;
+    color: black;
+}
+
+.book-list li {
+    background:rgba(255, 255, 255, 0.8);
+    margin: 20px 0;
+    padding: 18px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    text-align: left;
+    color: rgb(203, 11, 100);
+    text-shadow:1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.book-list li h2 {
+    font-size: 20px;
+    color:black;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.book-list li p {
+    margin: 6px 0;
+    font-size: 18px;
+    color: black;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: black;
+}
